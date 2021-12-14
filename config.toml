@@ -1,0 +1,231 @@
+baseURL = "https://demo.gethugothemes.com/navigator/"
+languageCode = "en-us"
+title = "Colibriyo | Cuarteto de guitarras"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "" # your analitics ID
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "es"
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+[[Params.listeLangues]]
+code = "es"
+[[Params.listeLangues]]
+code = "en"
+
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############ 1 - Site en Spanish
+[Languages.es]
+weight = 1
+languageCode = "es-es"
+title = "Colibriyo cuarteto de guitarras"
+dateFormat = "2 Enero 2006"
+
+home = "Inicio"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Descripción del footer en español."
+footerServiceTitle = "Servicios"
+footerQuicklinkTitle = "Accesos rápidos"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribirse"
+
+# Hero Area Section
+[Languages.es.params.hero]
+enable  = true
+heading = "Colibriyo"
+description = "El cuarteto Colibriyo interpreta versiones para cuarteto de guitarras de tangos, valses y milongas rioplatenses, con arreglos de Aníbal Arias y Pablo Rey."
+button  = true
+btnText = "Saber más"
+btnURL  = "https://themefisher.com/"
+videoThumb = "images/guarangueria.jpeg"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.es.params.aboutSm]
+enable  = true
+title   = "Cuarteto de guitarras"
+description = "El cuarteto de guitarras es un formato tradicional del Río de la Plata y en particular del Uruguay. En Buenos Aires, Carlos Gardel popularizó los acompañamientos en dúo, trio y cuarteto de guitarras. En Uruguay, Alfredo Zitarrosa está fuertemente identificado con el acompañamiento de cuarteto de guitarras, con el antecedente directo de Amalia de la Vega."
+
+# Blog Section On Homepage
+[Languages.es.params.blog]
+enable  = true
+topTitle= "ACTIVIDADES Y NOVEDADES"
+title   = "Blog."
+subtitle= "Si hubiera un blog de actividades o cosas de esas iría acá! ... pero también se puede borrar por ahora."
+ 
+# Contact Section
+[Languages.es.params.contact]
+enable  = false
+topTitle= "ENVIANOS UN MENSAJE"
+title   = "Contáctanos."
+subtitle= "Esto es para poner información de contacto!"
+address = "Montevideo , Uruguay"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.es.params.cta]
+enable  = false
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Creemos algo juntos"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contáctanos"
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Colibriyo guitar quartet"
+dateFormat = "January 2, 2006"
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Footer descripton in english."
+footerServiceTitle = "Service"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "Colibriyo"
+description = "The Colibriyo quartet interprets versions for guitar quartet of tangos, waltzes, and milongas from the Río de la Plata, with arrangements by Aníbal Arias and Pablo Rey."
+button  = true
+btnText = "Know More"
+btnURL  = "https://themefisher.com/"
+videoThumb = "images/guarangueria.jpeg"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "Guitar quartet"
+description = "The guitar quartet is a traditional format from the Río de la Plata and in particular from Uruguay. In Buenos Aires, Carlos Gardel popularized the accompaniments in duo, trio and guitar quartet. In Uruguay, Alfredo Zitarrosa is strongly identified with the guitar quartet accompaniment, with the direct antecedent of Amalia de la Vega."
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "ACTIVITIES AND NEWS"
+title   = "Blog."
+subtitle= "If there was a blog of activities or things like that It would go here! ... but it can also be deleted for now. "
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = false
+topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+	
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "scores"
+url     = "scores"
+weight  = 3
+[[menu.nav]]
+name    = "recordings"
+url     = "recordings"
+weight  = 4
+[[menu.nav]]
+name    = "blog"
+url     = "blog"
+weight  = 5
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 6
+
+# Footer Service Menu
+[[menu.service]]
+name    = "graphicdesign"
+url     = "service"
+weight  = 1
+[[menu.service]]
+name    = "webdesign"
+url     = "service"
+weight  = 2
+[[menu.service]]
+name    = "webdevelopment"
+url     = "service"
+weight  = 3
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name    = "partners"
+url     = "about"
+weight  = 1
+[[menu.quicklink]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[menu.quicklink]]
+name    = "faqs"
+url     = "about"
+weight  = 3
+[[menu.quicklink]]
+name    = "badges"
+url     = "about"
+weight  = 4

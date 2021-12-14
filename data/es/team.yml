@@ -1,0 +1,45 @@
+enable  : true
+topTitle: INTEGRANTES
+title   : El cuarteto colibriyo
+subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+
+member  :
+  - image         : images/team/marcelo-fiori.jpg
+    name          : Marcelo Fiori
+    designation   : Intérprete
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/
+    twitterURL    : https://twitter.com/
+    gplusURL      : https://plus.google.com/
+    dribbbleURL   : https://dribbble.com/
+
+  - image         : images/team/ignacio-irigaray.jpg
+    name          : Ignacio Irigaray
+    designation   : Intérprete
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/
+    twitterURL    : https://twitter.com/
+    gplusURL      : https://plus.google.com/
+    dribbbleURL   : https://dribbble.com/
+
+  - image         : images/team/pablo-rey.jpg
+    name          : Pablo Rey
+    designation   : Arreglador e intérprete
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/
+    twitterURL    : https://twitter.com/
+    gplusURL      : https://plus.google.com/
+    dribbbleURL   : https://dribbble.com/
+
+  - image         : images/team/martin-rocamora.jpg
+    name          : Martín Rocamora
+    designation   : Intérprete
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/
+    twitterURL    : https://twitter.com/
+    gplusURL      : https://plus.google.com/
+    dribbbleURL   : https://dribbble.com/
