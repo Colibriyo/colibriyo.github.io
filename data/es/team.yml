@@ -1,7 +1,7 @@
 enable  : true
 topTitle: INTEGRANTES
 title   : El cuarteto colibriyo
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+subtitle: Formación actual del cuarteto
 
 member  :
   - image         : images/team/marcelo-fiori.jpg
