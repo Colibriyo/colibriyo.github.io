@@ -59,7 +59,7 @@ button  = true
 btnText = "Saber más"
 btnURL  = "about"
 videoThumb = "images/guarangueria.jpeg"
-videoURL   = "https://www.youtube.com/watch?v=Jl-7HuHvokY"
+videoURL   = "https://www.youtube.com/embed/Jl-7HuHvokY"
 
 # About 2 Section
 [Languages.es.params.aboutSm]
@@ -132,7 +132,7 @@ button  = true
 btnText = "Know More"
 btnURL  = "about"
 videoThumb = "images/guarangueria.jpeg"
-videoURL   = "https://www.youtube.com/watch?v=Jl-7HuHvokY"
+videoURL   = "https://www.youtube.com/embed/Jl-7HuHvokY"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
