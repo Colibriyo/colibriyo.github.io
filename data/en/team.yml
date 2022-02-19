@@ -7,39 +7,35 @@ member  :
   - image         : images/team/marcelo-fiori.jpg
     name          : Marcelo Fiori
     designation   : Performer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+    description   : 
+#    facebookURL   : https://www.facebook.com/
+    twitterURL    : https://twitter.com/elposiblefiori
+#    gplusURL      : https://plus.google.com/
+#    dribbbleURL   : https://dribbble.com/
 
   - image         : images/team/ignacio-irigaray.jpg
     name          : Ignacio Irigaray
     designation   : Performer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+    description   : 
+#    facebookURL   : https://www.facebook.com/
+#    twitterURL    : https://twitter.com/
+#    gplusURL      : https://plus.google.com/
+#    dribbbleURL   : https://dribbble.com/
 
   - image         : images/team/pablo-rey.jpg
     name          : Pablo Rey
     designation   : Arrenger and performer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+    description   : 
+    facebookURL   : https://www.facebook.com/pablo.rey.3572
+#    twitterURL    : https://twitter.com/
+#    gplusURL      : https://plus.google.com/
+#    dribbbleURL   : https://dribbble.com/
 
   - image         : images/team/martin-rocamora.jpg
     name          : Martín Rocamora
     designation   : Performer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+    description   : 
+#    facebookURL   : https://www.facebook.com/
+#    twitterURL    : https://twitter.com/
+#    gplusURL      : https://plus.google.com/
+#    dribbbleURL   : https://dribbble.com/
