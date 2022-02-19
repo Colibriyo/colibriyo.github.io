@@ -16,8 +16,13 @@
         </div>
         <div class="row">
             {{ "<!-- Contact Details -->" | safeHTML }}
+            <div class="col-12 col-md-6">
+                <div class="map">
+                    <div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
+                </div>
+            </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
-      <!--  <div class="contact-form col-12 col-md-6 ">
+            <div class="contact-form col-12 col-md-6 ">
                 <form id="contact-form" method="post" action="sendmail.php" role="form">
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -47,7 +52,7 @@
                         <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
                     </div>
                 </form>
-            </div> -->
+            </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4">
@@ -60,9 +65,10 @@
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>E-mail</h4>
+                    <h4>Call Us</h4>
                     <p>
-                         {{ with .Site.Params.contact.mail }} {{.}} {{ end }} 
+                         {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
+                        <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
                     </p>
                 </div>
             </div>

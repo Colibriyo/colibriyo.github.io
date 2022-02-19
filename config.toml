@@ -44,11 +44,11 @@ home = "Inicio"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "Descripción del footer en español."
-footerServiceTitle = "Servicios"
+footerDescription = "El cuarteto Colibriyo interpreta versiones para cuarteto de guitarras de tangos, valses y milongas rioplatenses, con arreglos de Aníbal Arias y Pablo Rey."
+#footerServiceTitle = "Servicios"
 footerQuicklinkTitle = "Accesos rápidos"
 footerAboutTitle = "About"
-footerSubscribeTitle = "Subscribirse"
+#footerSubscribeTitle = "Subscribirse"
 
 # Hero Area Section
 [Languages.es.params.hero]
@@ -69,28 +69,29 @@ description = "El cuarteto de guitarras es un formato tradicional del Río de la
 
 # Blog Section On Homepage
 [Languages.es.params.blog]
-enable  = true
+enable  = false
 topTitle= "ACTIVIDADES Y NOVEDADES"
 title   = "Blog."
 subtitle= "Si hubiera un blog de actividades o cosas de esas iría acá! ... pero también se puede borrar por ahora."
  
 # Contact Section
 [Languages.es.params.contact]
-enable  = false
+enable  = true
 topTitle= "ENVIANOS UN MENSAJE"
 title   = "Contáctanos."
-subtitle= "Esto es para poner información de contacto!"
+#subtitle= "Esto es para poner información de contacto!"
 address = "Montevideo , Uruguay"
 phone   = "(03) 9283 2617"
+mail    = "cuarteto.colibriyo@gmail.com"
 fax     = "+61 3827 3590"
-facebook= "https://www.facebook.com/"
-twitter = "https://twitter.com/"
-linkedin= "https://www.linkedin.com/"
-dribbble= "https://dribbble.com/"
-instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
-mapMarker   = "images/marker.png"
+#facebook= "https://www.facebook.com/"
+#twitter = "https://twitter.com/"
+#linkedin= "https://www.linkedin.com/"
+#dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/cuarteto.colibriyo"
+#mapLatitude = "51.507351"
+#mapLongitude= "-0.127758"
+#mapMarker   = "images/marker.png"
 
 # Call to Action Section on About Page
 [Languages.es.params.cta]
@@ -110,7 +111,7 @@ home = "Home"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "Footer descripton in english."
+footerDescription = "The Colibriyo quartet interprets versions for guitar quartet of tangos, waltzes, and milongas from the Río de la Plata, with arrangements by Aníbal Arias and Pablo Rey."
 footerServiceTitle = "Service"
 footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
@@ -148,21 +149,22 @@ subtitle= "If there was a blog of activities or things like that It would go her
 
 # Contact Section
 [Languages.en.params.contact]
-enable  = false
+enable  = true
 topTitle= "DROP US A NOTE"
 title   = "Contact Us."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = "14/05, Stockhome <br> Victori Palace , United States"
+#subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "Montevideo , Uruguay"
 phone   = "(03) 9283 2617"
-fax     = "+61 3827 3590"
-facebook= "https://www.facebook.com/"
-twitter = "https://twitter.com/"
-linkedin= "https://www.linkedin.com/"
-dribbble= "https://dribbble.com/"
-instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
-mapMarker   = "images/marker.png"
+mail    = "cuarteto.colibriyo@gmail.com"
+#fax     = "+61 3827 3590"
+#facebook= "https://www.facebook.com/"
+#twitter = "https://twitter.com/"
+#linkedin= "https://www.linkedin.com/"
+#dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/cuarteto.colibriyo"
+#mapLatitude = "51.507351"
+#mapLongitude= "-0.127758"
+#mapMarker   = "images/marker.png"
 	
 # Call to Action Section on About Page
 [Languages.en.params.cta]
@@ -189,43 +191,43 @@ weight  = 3
 name    = "recordings"
 url     = "recordings"
 weight  = 4
-[[menu.nav]]
-name    = "blog"
-url     = "blog"
-weight  = 5
+#[[menu.nav]]
+#name    = "blog"
+#url     = "blog"
+#weight  = 5
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
 weight  = 6
 
 # Footer Service Menu
-[[menu.service]]
-name    = "graphicdesign"
-url     = "service"
-weight  = 1
-[[menu.service]]
-name    = "webdesign"
-url     = "service"
-weight  = 2
-[[menu.service]]
-name    = "webdevelopment"
-url     = "service"
-weight  = 3
+#[[menu.service]]
+#name    = "graphicdesign"
+#url     = "service"
+#weight  = 1
+#[[menu.service]]
+#name    = "webdesign"
+#url     = "service"
+#weight  = 2
+#[[menu.service]]
+#name    = "webdevelopment"
+#url     = "service"
+#weight  = 3
 
 # Footer Quick links Menu
 [[menu.quicklink]]
-name    = "partners"
+name    = "about"
 url     = "about"
 weight  = 1
 [[menu.quicklink]]
-name    = "about"
-url     = "about"
+name    = "scores"
+url     = "scores"
 weight  = 2
 [[menu.quicklink]]
-name    = "faqs"
-url     = "about"
+name    = "recordings"
+url     = "recordings"
 weight  = 3
 [[menu.quicklink]]
-name    = "badges"
-url     = "about"
+name    = "contact"
+url     = "contact"
 weight  = 4
