@@ -57,9 +57,9 @@ heading = "Colibriyo"
 description = "El cuarteto Colibriyo interpreta versiones para cuarteto de guitarras de tangos, valses y milongas rioplatenses, con arreglos de Aníbal Arias y Pablo Rey."
 button  = true
 btnText = "Saber más"
-btnURL  = "https://themefisher.com/"
+btnURL  = "about"
 videoThumb = "images/guarangueria.jpeg"
-videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+videoURL   = "https://www.youtube.com/watch?v=Jl-7HuHvokY"
 
 # About 2 Section
 [Languages.es.params.aboutSm]
@@ -130,9 +130,9 @@ heading = "Colibriyo"
 description = "The Colibriyo quartet interprets versions for guitar quartet of tangos, waltzes, and milongas from the Río de la Plata, with arrangements by Aníbal Arias and Pablo Rey."
 button  = true
 btnText = "Know More"
-btnURL  = "https://themefisher.com/"
+btnURL  = "about"
 videoThumb = "images/guarangueria.jpeg"
-videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+videoURL   = "https://www.youtube.com/watch?v=Jl-7HuHvokY"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
