@@ -30,6 +30,13 @@
                                 <span>{{ .designation }}</span>
                                 <p>{{ .description }}</p>
                                 <ul class="list-inline">
+                                    {{ with .homeURL }}
+                                    <li class="list-inline-item">
+                                        <a href="{{.}}">
+                                            <i class="tf-ion-home"></i>
+                                        </a>
+                                    </li>
+                                    {{ end }}
                                     {{ with .facebookURL }}
                                     <li class="list-inline-item">
                                         <a href="{{.}}">
@@ -48,13 +55,6 @@
                                     <li class="list-inline-item">
                                         <a href="{{.}}">
                                             <i class="tf-ion-social-google-outline"></i>
-                                        </a>
-                                    </li>
-                                    {{ end }}
-                                    {{ with .dribbbleURL }}
-                                    <li class="list-inline-item">
-                                        <a href="{{.}}">
-                                            <i class="tf-ion-social-dribbble"></i>
                                         </a>
                                     </li>
                                     {{ end }}

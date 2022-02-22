@@ -11,7 +11,7 @@ member  :
 #    facebookURL   : https://www.facebook.com/
     twitterURL    : https://twitter.com/elposiblefiori
 #    gplusURL      : https://plus.google.com/
-#    dribbbleURL   : https://dribbble.com/
+    homeURL   : http://www.fing.edu.uy/~mfiori/
 
   - image         : images/team/ignacio-irigaray.jpg
     name          : Ignacio Irigaray
@@ -20,7 +20,7 @@ member  :
 #    facebookURL   : https://www.facebook.com/
 #    twitterURL    : https://twitter.com/
 #    gplusURL      : https://plus.google.com/
-#    dribbbleURL   : https://dribbble.com/
+    homeURL   : https://iie.fing.edu.uy/~irigaray/
 
   - image         : images/team/pablo-rey.jpg
     name          : Pablo Rey
@@ -37,5 +37,5 @@ member  :
     description   : 
 #    facebookURL   : https://www.facebook.com/
 #    twitterURL    : https://twitter.com/
-#    gplusURL      : https://plus.google.com/
-#    dribbbleURL   : https://dribbble.com/
+#    gpl	usURL      : https://plus.google.com/
+    homeURL   : https://iie.fing.edu.uy/~rocamora/

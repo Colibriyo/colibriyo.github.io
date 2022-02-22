@@ -1,7 +1,7 @@
 enable  : true
 topTitle: MEMBERS
 title   : The Colibriyo quartet
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+subtitle: Current members
 
 member  :
   - image         : images/team/marcelo-fiori.jpg
@@ -11,7 +11,7 @@ member  :
 #    facebookURL   : https://www.facebook.com/
     twitterURL    : https://twitter.com/elposiblefiori
 #    gplusURL      : https://plus.google.com/
-#    dribbbleURL   : https://dribbble.com/
+    homeURL   : http://www.fing.edu.uy/~mfiori/
 
   - image         : images/team/ignacio-irigaray.jpg
     name          : Ignacio Irigaray
@@ -20,7 +20,7 @@ member  :
 #    facebookURL   : https://www.facebook.com/
 #    twitterURL    : https://twitter.com/
 #    gplusURL      : https://plus.google.com/
-#    dribbbleURL   : https://dribbble.com/
+    homeURL   : https://iie.fing.edu.uy/~irigaray/
 
   - image         : images/team/pablo-rey.jpg
     name          : Pablo Rey
@@ -38,4 +38,4 @@ member  :
 #    facebookURL   : https://www.facebook.com/
 #    twitterURL    : https://twitter.com/
 #    gplusURL      : https://plus.google.com/
-#    dribbbleURL   : https://dribbble.com/
+    homeURL   : https://iie.fing.edu.uy/~rocamora/
