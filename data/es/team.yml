@@ -1,7 +1,7 @@
 enable  : true
 topTitle: INTEGRANTES
 title   : El cuarteto colibriyo
-subtitle: Formación actual del cuarteto
+subtitle: Seguinos en
 
 member  :
   - image         : images/team/marcelo-fiori.jpg
@@ -29,7 +29,7 @@ member  :
     facebookURL   : https://www.facebook.com/pablo.rey.3572
 #    twitterURL    : https://twitter.com/
 #    gplusURL      : https://plus.google.com/
-#    dribbbleURL   : https://dribbble.com/
+    instaURL   : https://www.instagram.com/pablo.rey._/
 
   - image         : images/team/martin-rocamora.jpg
     name          : Martín Rocamora
@@ -39,3 +39,4 @@ member  :
 #    twitterURL    : https://twitter.com/
 #    gpl	usURL      : https://plus.google.com/
     homeURL   : https://iie.fing.edu.uy/~rocamora/
+    instaURL   : https://www.instagram.com/martin.rocamora/

@@ -1,23 +1,30 @@
-<h2 align="center"> {{ .Get 1 }} </h2>
-<p align="center"> {{ .Get 2 }} </p>
-
-<p align="center"> <strong> Arrangement for guitar quartet: {{ .Get 3 }} </strong></p>
-
-
-<p align="center">
-<audio class="player" controls preload="none">
+{{ "<!-- Start About Section -->" | safeHTML }}
+<section class="about-2 section bg-gray" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                    <h2>{{ .Get 1 }} </h2>
+                    <h5>{{ .Get 2 }} </h5>
+            </div>
+            <div class="col-12 col-md-7">
+            <audio class="player" controls preload="none">
 
 <source src="/mp3/{{ index .Params 0 }}" type="audio/mp3">
 
 </audio>
 
-</p>
+                    <p><strong> Arrangement for guitar quartet: {{ .Get 3 }} </strong> </p>
 
-<div align="center">
-<ul>
-  <li>First guitar: {{ .Get 4 }}</li>
-  <li>Second guitar: {{ .Get 5 }}</li>
-  <li>Third guitar: {{ .Get 6 }}</li>
-  <li>Fourth guitar: {{ .Get 7 }}</li>
-</ul>
-</div>
+		    <ul>
+		      <li>First guitar: {{ .Get 4 }}</li>
+		      <li>Second guitar: {{ .Get 5 }}</li>
+		      <li>Third guitar: {{ .Get 6 }}</li>
+		      <li>Fourth guitar: {{ .Get 7 }}</li>
+		    </ul>
+
+                 
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- End About section -->" | safeHTML }}

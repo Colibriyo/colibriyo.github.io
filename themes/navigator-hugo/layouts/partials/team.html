@@ -12,7 +12,9 @@
                             <h2>{{ . }}</h2>
                             <span class="border"></span>
                         {{ end }}
-                        {{ with .subtitle }}<p>{{ . }}</p>{{ end }}
+                        {{ with .subtitle }} <p>{{ . }} <a href="https://www.instagram.com/cuartetocolibriyo">
+                           <i class="tf-ion-social-instagram"></i>
+                           </a></p>{{ end }}
                     </div>
                 </div>
             </div>
@@ -51,6 +53,14 @@
                                         </a>
                                     </li>
                                     {{ end }}
+                                    {{ with .instaURL }}
+                                    <li class="list-inline-item">
+                                        <a href="{{.}}">
+                                            <i class="tf-ion-social-instagram"></i>
+                                        </a>
+                                    </li>
+                                    {{ end }}
+
                                     {{ with .gplusURL }}
                                     <li class="list-inline-item">
                                         <a href="{{.}}">

@@ -114,7 +114,7 @@ logo = "images/logo.png"
 menufixed = false
 
 footerDescription = "The Colibriyo quartet interprets versions for guitar quartet of tangos, waltzes, and milongas from the Río de la Plata, with arrangements by Aníbal Arias and Pablo Rey."
-footerServiceTitle = "Service"
+#footerServiceTitle = "Service"
 footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
 footerSubscribeTitle = "Subscribe"
