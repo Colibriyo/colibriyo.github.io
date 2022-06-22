@@ -61,7 +61,7 @@ btnURL  = "about"
 btn2Text = "Seguinos en Instagram"
 btn2URL  = "https://www.instagram.com/cuartetocolibriyo"
 videoThumb = "images/guarangueria.jpeg"
-videoURL   = "https://www.youtube.com/embed/Jl-7HuHvokY"
+videoURL   = "https://www.youtube.com/embed/G0CjSdpNDUY"
 
 # About 2 Section
 [Languages.es.params.aboutSm]
@@ -136,7 +136,7 @@ btnURL  = "about"
 btn2Text = "Follow us on Instagram"
 btn2URL  = "https://www.instagram.com/cuartetocolibriyo"
 videoThumb = "images/guarangueria.jpeg"
-videoURL   = "https://www.youtube.com/embed/Jl-7HuHvokY"
+videoURL   = "https://www.youtube.com/embed/G0CjSdpNDUY"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
