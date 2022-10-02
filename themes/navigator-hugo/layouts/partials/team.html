@@ -30,7 +30,6 @@
                             <div class="member-content">
                                 <h3>{{ .name }}</h3>
                                 <span>{{ .designation }}</span>
-                                <p>{{ .description }}</p>
                                 <ul class="list-inline">
                                     {{ with .homeURL }}
                                     <li class="list-inline-item">
@@ -69,6 +68,7 @@
                                     </li>
                                     {{ end }}
                                 </ul>
+                                <p>{{ .description }}</p>
                             </div>
                         </div>
                     </div>
