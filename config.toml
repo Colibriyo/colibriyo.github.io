@@ -186,23 +186,37 @@ btnText = "Contact Us"
 [[menu.nav]]
 name    = "about"
 url     = "about"
-weight  = 2
+weight  = 1
 [[menu.nav]]
 name    = "scores"
 url     = "scores"
-weight  = 3
+weight  = 2
 [[menu.nav]]
 name    = "recordings"
 url     = "recordings"
-weight  = 4
+weight  = 3
 [[menu.nav]]
 name    = "projects"
 url     = "projects"
+weight  = 4
+[[menu.nav]]
+name    = "Con Permiso (2022)"
+url     = "conpermiso"
+parent = "projects"
+weight  = 1
+[[menu.nav]]
+name    = "Abran Cancha (2023)"
+url     = "abrancancha"
+parent = "projects"
+weight  = 2
+[[menu.nav]]
+name    = "press"
+url     = "press"
 weight  = 5
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
-weight  = 6
+weight  = 10
 
 # Footer Service Menu
 #[[menu.service]]
@@ -231,12 +245,15 @@ weight  = 2
 name    = "recordings"
 url     = "recordings"
 weight  = 3
-[[menu.nav]]
+[[menu.quicklink]]
 name    = "projects"
 url     = "projects"
 weight  = 4
-
+[[menu.quicklink]]
+name    = "press"
+url     = "press"
+weight  = 5
 [[menu.quicklink]]
 name    = "contact"
 url     = "contact"
-weight  = 5
+weight  = 10

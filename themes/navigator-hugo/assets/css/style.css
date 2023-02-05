@@ -325,6 +325,34 @@ a:focus, a:hover {
   }
 }
 
+
+.raya {
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.raya .border {
+  border: none;
+  display: inline-block;
+  border-radius: 3px;
+  height: 6px;
+  position: relative;
+  width: 80%;
+  margin-bottom: 0px;
+}
+
+.gradient, .raya .border, .service-2 .service-item i {
+  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+}
+
+
+.raya p {
+  color: #848484;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
 .title {
   padding-bottom: 50px;
   text-align: center;
@@ -807,6 +835,38 @@ a:focus, a:hover {
     display: none;
   }
 }
+
+/*=================================================================
+Lista en proyecto Con Permiso 2022
+==================================================================*/
+.listat {
+  background: #F7F7F7;
+}
+
+.listat h4 {
+  position: relative;
+}
+
+.listat h4:before {
+  position: absolute;
+  left: -15%;
+  top: 18px;
+  content: '';
+  display: inline-block;
+  width: 12%;
+  height: 3px;
+  background-color: #ffa535;
+  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+}
+
+@media (max-width: 768px) {
+  .listat h4:before {
+    display: none;
+  }
+}
+
+
 
 /*=================================================================
  Call To Action 1

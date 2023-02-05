@@ -6,6 +6,8 @@ other = "Scores"
 other = "Recordings"
 [projects]
 other = "Projects"
+[press]
+other = "Press"
 [contact]
 other = "Contact"
 

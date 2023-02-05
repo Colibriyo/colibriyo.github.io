@@ -6,6 +6,8 @@ other = "Partituras"
 other = "Grabaciones"
 [projects]
 other = "Proyectos"
+[press]
+other = "Prensa"
 [contact]
 other = "Contacto"
 
