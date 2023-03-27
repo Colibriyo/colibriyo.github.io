@@ -121,6 +121,10 @@ a:focus, a:hover {
   padding: 40px 0;
 }
 
+.pdfimg {
+height:auto;
+}
+
 @media (max-width: 480px) {
   .section {
     padding: 40px 0;
@@ -130,6 +134,13 @@ a:focus, a:hover {
 .padding-0 {
   padding: 0;
 }
+
+@media (max-width: 768px) {
+  .pdfimg {
+    width:30%;
+  }
+}
+
 
 @media (max-width: 768px) {
   .padding-0 {
@@ -1772,6 +1783,27 @@ Lista en proyecto Con Permiso 2022
 .comment-reply-form textarea, .comment-reply-form .btn-main, .comment-reply-form .btn-main-sm {
   height: auto;
 }
+
+.reproductor{
+  justify-content: center;
+}
+
+.reproductor li{
+  margin: 0 5px;
+  font-size: 20px;
+}
+.reproductor li a{
+  color: #404040;
+}
+.reproductor li.disabled a{
+  color: #cccccc;
+}
+.reproductor li.active a{
+  background-color: #f0326b !important;
+  border-color: #f0326b !important;
+  font-weight: 600;
+}
+
 
 .pagination{
   justify-content: center;
