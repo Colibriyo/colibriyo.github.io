@@ -1,0 +1,48 @@
+{{ "<!-- Start About Section -->" | safeHTML }}
+<section class="listat section bg-gray" id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-4">
+                    <h4>{{ .Get 0 }} </h4>
+                    <h6>Alberto Mastra </h6>
+                    <h6>Arrangment: Pablo Rey</h6>
+            </div>
+
+
+{{ $filename := .Get 1 }}
+
+<div class="col-12 col-md-7">
+
+    <div class="row align-items-center">
+        <div class="col-3 pagination">
+            <h6>Listen to arrangement:</h6>
+        </div>
+        <div class="col-9 pagination">
+            <audio class="player" controls preload="none"><source src="/mp3/{{ $filename }}.mp3" type="audio/mp3"></audio></p>
+        </div>
+    </div>
+
+    {{ range $i, $guitar := (slice "guitarra1" "guitarra2" "guitarra3" "guitarra4") }}
+    <div class="row align-items-center">
+        <div class="col-3 pagination">
+            <h6>Guitar {{ add $i 1 }} <a href="/partituras/{{ $filename }}_{{ $guitar }}.pdf"><img class='pdfimg' src='/images/pdf.png' alt='[{{ $filename }}.pdf]' /></a></h6>
+        </div>
+        <div class="col-9 pagination">
+            <audio class="player" controls preload="none"><source src="/mp3/{{ $filename }}_{{ $guitar }}.mp3" type="audio/mp3"></audio></p>
+        </div>
+    </div>
+    {{ end }}
+
+</div>
+
+
+        </div>
+    </div>
+    <div class="raya">
+       <span class="border"></span>
+    </div>
+</section>
+
+{{ "<!-- End About section -->" | safeHTML }}
+
+
