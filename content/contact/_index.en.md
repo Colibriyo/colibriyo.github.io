@@ -5,4 +5,4 @@ draft   : false
 description: "Contact"
 ---
 
-
+{{< contact_en >}}
