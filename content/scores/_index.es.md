@@ -5,4 +5,9 @@ draft   : false
 description: "Partituras"
 ---
 
-{{< con_permiso_about >}}
+{{< scores_es "Con Permiso" "Alberto Mastra" con_permiso>}}
+{{< scores_es "La Fulana" "Alberto Mastra" la_fulana>}}
+{{< scores_es "Abran Cancha" "Alberto Mastra" abran_cancha>}}
+{{< scores_es "Miriñaque" "Alberto Mastra" mirinaque>}}
+{{< scores_es "Así fui yo" "Alberto Mastra" asi_fui_yo>}}
+{{< scores_es "Milonga Arrabalera" "Alberto Mastra" milonga_arrabalera>}}
