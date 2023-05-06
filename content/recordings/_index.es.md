@@ -5,7 +5,7 @@ draft   : false
 description: "Grabaciones"
 ---
 
-{{<audio_es "la_fulana.mp3" "La Fulana" "(Alberto Mastra)" "Pablo Rey" "Martín Rocamora" "Marcelo Fiori" "Ignacio Irigaray" "Pablo Rey" >}}
+{{<audio_es "la_fulana.mp3" "La Fulana" "(Alberto Mastra)" "Pablo Rey" "Martín Rocamora" "Marcelo Fiori" "Ignacio Irigaray" "Pablo Rey" f>}}
 
 {{<audio_es "abran_cancha.mp3" "Abran Cancha" "(Alberto Mastra)" "Pablo Rey" "Pablo Rey" "Martín Rocamora" "Marcelo Fiori" "Ignacio Irigaray" >}}
 

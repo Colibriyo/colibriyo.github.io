@@ -1,10 +1,20 @@
 {{ "<!-- Start About Section -->" | safeHTML }}
+
+{{ $mastra := .Get 2 }}
+
 <section class="about-2 section bg-gray" id="about">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4">
                     <h2>{{ .Get 1 }} </h2>
                     <h5>{{ .Get 2 }} </h5>
+               	{{ if eq $mastra "(Alberto Mastra)" }}
+                    Reference recording <span class="hovertext" data-hover="This recording is part of the project ''Con Permiso: Milongas de Alberto Mastra para cuarteto de guitarras'', and it has the sole objective of making available a sound reference of the arrangements and each of the guitars, for exclusively didactic purposes. Each guitar was recorded at a time, following a metronome, and then all the tracks were put together. However, these musical genres need to be recorded with musicians interacting, playing together and following gestures, looks that allow for an organic fluctuation of tempo and rhythm, a situation that is not possible when playing separately and then editing later. When playing together in the same space, it is not possible to isolate the sound of each of the guitars. For this reason, and for the exclusive educational purpose that these recordings pursue, they are presented in this way to facilitate listening for anyone who wants to approach these arrangements.">
+    [ver]
+  </span>
+
+			{{ end }}
+
             </div>
             <div class="col-12 col-md-7">
             <audio class="player" controls preload="none">
