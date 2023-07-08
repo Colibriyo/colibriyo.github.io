@@ -1,0 +1,14 @@
+{{ "<!-- Start About Section -->" | safeHTML }}
+<section class="about-2 section bg-gray" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                    <h2><s>{{ .Get 0 }}</s> </h2>
+                    <h5><s>{{ .Get 1 }}</s> </h5>
+                    <h6><s>{{ .Get 2 }}</s> </h6>
+            </div>
+       
+        </div>
+    </div>
+</section>
+{{ "<!-- End About section -->" | safeHTML }}

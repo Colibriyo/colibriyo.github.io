@@ -2,12 +2,14 @@
 other = "Quartet"
 [scores]
 other = "Scores"
+[schedule]
+other = "Gigs & Events"
 [recordings]
 other = "Recordings"
 [projects]
 other = "Projects"
 [press]
-other = "Press"
+other = "Pictures & Press"
 [contact]
 other = "Contact"
 

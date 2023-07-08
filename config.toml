@@ -192,6 +192,10 @@ name    = "scores"
 url     = "scores"
 weight  = 2
 [[menu.nav]]
+name    = "schedule"
+url     = "schedule"
+weight  = 2
+[[menu.nav]]
 name    = "recordings"
 url     = "recordings"
 weight  = 3

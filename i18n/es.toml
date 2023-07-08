@@ -2,12 +2,14 @@
 other = "Cuarteto"
 [scores]
 other = "Partituras"
+[schedule]
+other = "Agenda de presentaciones"
 [recordings]
 other = "Grabaciones"
 [projects]
 other = "Proyectos"
 [press]
-other = "Prensa"
+other = "Fotos & Prensa"
 [contact]
 other = "Contacto"
 

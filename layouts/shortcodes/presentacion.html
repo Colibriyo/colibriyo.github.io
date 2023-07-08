@@ -1,0 +1,13 @@
+{{ "<!-- Start About Section -->" | safeHTML }}
+<section class="about-2 section bg-gray" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                    <h2>{{ .Get 0 }} </h2>
+                    <h5>{{ .Get 1 }} </h5>
+                    <h6>{{ .Get 2 }} </h6>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- End About section -->" | safeHTML }}
