@@ -1941,3 +1941,16 @@ Lista en proyecto Con Permiso 2022
   opacity: 1;
   visibility: visible;
 }
+
+.afiche {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.afichex {
+  max-width: 300px;
+  max-height: 200px;
+  opacity: 0.5;
+}
+
+

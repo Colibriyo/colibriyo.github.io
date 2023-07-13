@@ -2,12 +2,21 @@
 <section class="about-2 section bg-gray" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-4">
                     <h2><s>{{ .Get 0 }}</s> </h2>
                     <h5><s>{{ .Get 1 }}</s> </h5>
-                    <h6><s>{{ .Get 2 }}</s> </h6>
+                    <h6><s>{{ .Get 3 }}</s> </h6>
             </div>
-       
+{{ $imageName := index .Params 2 }}
+{{ $filePath := printf "static/images/afiches/%s" $imageName }}
+{{ $imageExt := path.Ext $imageName }}
+{{ $validExtensions := slice ".jpg" }}
+
+{{ if and (in $validExtensions $imageExt) (fileExists $filePath) }}
+  <div class="col-12 col-md-7">
+    <img src="/images/afiches/{{ $imageName }}" class="afichex">
+  </div>
+{{ end }}       
         </div>
     </div>
 </section>

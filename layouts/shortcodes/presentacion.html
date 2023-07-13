@@ -2,11 +2,21 @@
 <section class="about-2 section bg-gray" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-4">
                     <h2>{{ .Get 0 }} </h2>
                     <h5>{{ .Get 1 }} </h5>
-                    <h6>{{ .Get 2 }} </h6>
+                    <h6>{{ .Get 3 }} </h6>
             </div>
+{{ $imageName := index .Params 2 }}
+{{ $filePath := printf "static/images/afiches/%s" $imageName }}
+{{ $imageExt := path.Ext $imageName }}
+{{ $validExtensions := slice ".jpg" }}
+
+{{ if and (in $validExtensions $imageExt) (fileExists $filePath) }}
+  <div class="col-12 col-md-7">
+    <img src="/images/afiches/{{ $imageName }}" class="afiche">
+  </div>
+{{ end }}
         </div>
     </div>
 </section>
