@@ -5,7 +5,11 @@ draft   : false
 description: "Gigs & Events"
 ---
 
-{{< titulo "2023">}}
+{{< titulo "Next presentation">}}
+
+{{< presentacion "Club de Bochas" "14 de setiembre de 2023" "bochas_setiembre_2023.jpg" " ">}}
+
+{{< titulo "2023 schedule">}}
 
 {{< presentacion "La Cretina" "26 de setiembre de 2023">}}
 {{< presentacion "Club de Bochas" "14 de setiembre de 2023" "bochas_setiembre_2023.jpg" " ">}}

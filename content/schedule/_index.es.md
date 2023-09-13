@@ -5,7 +5,10 @@ draft   : false
 description: "Agenda de presentaciones"
 ---
 
-{{< titulo "2023">}}
+{{< titulo "Próxima fecha">}}
+{{< presentacion "Club de Bochas" "14 de setiembre de 2023" "bochas_setiembre_2023.jpg" " ">}}
+
+{{< titulo "Agenda 2023">}}
 
 {{< presentacion "La Cretina" "26 de setiembre de 2023">}}
 {{< presentacion "Club de Bochas" "14 de setiembre de 2023" "bochas_setiembre_2023.jpg" " ">}}
