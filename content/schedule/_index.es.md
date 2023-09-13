@@ -4,12 +4,9 @@ date    : 2018-07-07T12:37:52+06:00
 draft   : false
 description: "Agenda de presentaciones"
 ---
-
 {{< titulo "Próxima fecha">}}
 {{< presentacion "Club de Bochas" "14 de setiembre de 2023" "bochas_setiembre_2023.jpg" " ">}}
-
 {{< titulo "Agenda 2023">}}
-
 {{< presentacion "La Cretina" "26 de setiembre de 2023">}}
 {{< presentacion "Club de Bochas" "14 de setiembre de 2023" "bochas_setiembre_2023.jpg" " ">}}
 {{< presentacionx "Sala La Experimental de Malvín" "26 de agosto de 2023" "experimental_agosto_2023.jpg" "Fortalecimiento de las artes">}}
