@@ -5,12 +5,12 @@ draft   : false
 description: "Agenda de presentaciones"
 ---
 {{< titulo "Próxima fecha">}}
-{{< presentacion "Teatro Unión de San Carlos" "9 de noviembre de 2023">}}
+{{< presentacion "Centro Cultural Terminal Goes" "24 de noviembre de 2023" "goes_noviembre_2023.jpg">}}
 {{< titulo "Agenda 2023">}}
-{{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023">}}
-{{< presentacion "Centro Cultural Terminal Goes" "24 de noviembre de 2023">}}
-{{< presentacion "Teatro Unión de San Carlos, Maldonado" "9 de noviembre de 2023">}}
-{{< presentacionx "La Cretina" "26 de setiembre de 2023">}}
+{{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
+{{< presentacion "Centro Cultural Terminal Goes" "24 de noviembre de 2023" "goes_noviembre_2023.jpg">}}
+{{< presentacionx "Teatro Unión de San Carlos, Maldonado" "9 de noviembre de 2023" "triple_2023.jpg">}}
+{{< presentacionx "La Cretina" "26 de setiembre de 2023" "cretina_setiembre_2023.jpg">}}
 {{< presentacionx "Club de Bochas" "14 de setiembre de 2023" "bochas_setiembre_2023.jpg" " ">}}
 {{< presentacionx "Sala La Experimental de Malvín" "26 de agosto de 2023" "experimental_agosto_2023.jpg" "Fortalecimiento de las artes">}}
 {{< presentacionx "Sala Hugo Balzo" "19 de agosto de 2023" "balzo_agosto_2023.jpg" "Festival Internacional de Guitarra">}}
