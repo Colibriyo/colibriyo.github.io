@@ -200,9 +200,13 @@ name    = "recordings"
 url     = "recordings"
 weight  = 3
 [[menu.nav]]
+name    = "press"
+url     = "press"
+weight  = 4
+[[menu.nav]]
 name    = "projects"
 url     = "projects"
-weight  = 4
+weight  = 5
 [[menu.nav]]
 name    = "Con Permiso (2022)"
 url     = "conpermiso"
@@ -213,14 +217,10 @@ name    = "Abran Cancha (2023)"
 url     = "abrancancha"
 parent = "projects"
 weight  = 2
-[[menu.nav]]
-name    = "press"
-url     = "press"
-weight  = 5
-[[menu.nav]]
-name    = "contact"
-url     = "contact"
-weight  = 10
+#[[menu.nav]]
+#name    = "contact"
+#url     = "contact"
+#weight  = 10
 
 # Footer Service Menu
 #[[menu.service]]
