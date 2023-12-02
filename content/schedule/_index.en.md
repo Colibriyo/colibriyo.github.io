@@ -6,7 +6,7 @@ description: "Gigs & Events"
 ---
 {{< titulo "Next presentation">}}
 {{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
-{{< titulo "2023 schedule">}}
+{{< despl_init "2023 schedule (click to dropdown)">}}
 {{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
 {{< presentacionx "Centro Cultural Terminal Goes" "24 de noviembre de 2023" "goes_noviembre_2023.jpg">}}
 {{< presentacionx "Teatro Unión de San Carlos, Maldonado" "9 de noviembre de 2023" "triple_2023.jpg">}}

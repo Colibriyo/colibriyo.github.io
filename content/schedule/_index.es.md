@@ -6,7 +6,7 @@ description: "Agenda de presentaciones"
 ---
 {{< titulo "Próxima fecha">}}
 {{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
-{{< titulo "Agenda 2023">}}
+{{< despl_init "Agenda 2023 (desplegar)">}}
 {{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
 {{< presentacionx "Centro Cultural Terminal Goes" "24 de noviembre de 2023" "goes_noviembre_2023.jpg">}}
 {{< presentacionx "Teatro Unión de San Carlos, Maldonado" "9 de noviembre de 2023" "triple_2023.jpg">}}
@@ -20,3 +20,4 @@ description: "Agenda de presentaciones"
 {{< presentacionx "El Hormiguero" "24 de mayo de 2023" "hormiguero_mayo_2023.jpg">}}
 {{< presentacionx "Sala Zitarrosa" "19 de mayo de 2023" "zitarrosa_mayo_2023.jpg" "Invitados de Gabriela Morgare en la presentación de su disco Amores Nuevos">}}
 {{< presentacionx "Cantina del Urreta" "3 de mayo de 2023" "urreta_mayo_2023.jpg">}}
+{{< despl_fin>}}
