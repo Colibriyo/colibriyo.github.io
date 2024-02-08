@@ -217,6 +217,11 @@ name    = "Abran Cancha (2023)"
 url     = "abrancancha"
 parent = "projects"
 weight  = 2
+[[menu.nav]]
+name    = "Milonga Madre (2024)"
+url     = "milongamadre"
+parent = "projects"
+weight  = 3
 #[[menu.nav]]
 #name    = "contact"
 #url     = "contact"
