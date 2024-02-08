@@ -5,9 +5,9 @@ draft   : false
 description: "Agenda de presentaciones"
 ---
 {{< titulo "Próxima fecha">}}
-{{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
+{{< presentacion "Mirador Panorámico, Intendencia de Montevideo" "3 de marzo de 2024" "">}}
 {{< despl_init "Agenda 2023 (desplegar)">}}
-{{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
+{{< presentacionx "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
 {{< presentacionx "Centro Cultural Terminal Goes" "24 de noviembre de 2023" "goes_noviembre_2023.jpg">}}
 {{< presentacionx "Teatro Unión de San Carlos, Maldonado" "9 de noviembre de 2023" "triple_2023.jpg">}}
 {{< presentacionx "La Cretina" "26 de setiembre de 2023" "cretina_setiembre_2023.jpg">}}
