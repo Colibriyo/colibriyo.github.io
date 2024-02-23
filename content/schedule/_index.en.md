@@ -5,7 +5,11 @@ draft   : false
 description: "Gigs & Events"
 ---
 {{< titulo "Next presentation">}}
-{{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
+{{< presentacion "Mirador Panorámico, Intendencia de Montevideo" "2 de marzo de 2024" "mirador_2024.jpg">}}
+{{< despl_init "2024 schedule (click to dropdown)">}}
+{{< presentacion "El Hormiguero" "18 de abril de 2024" "">}}
+{{< presentacion "Mirador Panorámico, Intendencia de Montevideo" "2 de marzo de 2024" "mirador_2024.jpg">}}
+{{< despl_fin>}}
 {{< despl_init "2023 schedule (click to dropdown)">}}
 {{< presentacion "Pulpería El Parral, Dolores" "9 de diciembre de 2023" "parral_diciembre_2023.jpg">}}
 {{< presentacionx "Centro Cultural Terminal Goes" "24 de noviembre de 2023" "goes_noviembre_2023.jpg">}}

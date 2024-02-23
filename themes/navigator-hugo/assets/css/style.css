@@ -1973,7 +1973,7 @@ Lista en proyecto Con Permiso 2022
 
 .content3 {
   padding: 0 18px;
-  max-height: 0;
+  max-height: none;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #F7F7F7;
