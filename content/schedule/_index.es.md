@@ -5,9 +5,10 @@ draft   : false
 description: "Agenda de presentaciones"
 ---
 {{< titulo "Próxima fecha">}}
-{{< presentacion "El Hormiguero" "18 de abril de 2024" "hormiguero_abril_2024.jpg">}}
+{{< presentacion "La Cretina" "21 de mayo de 2024" "" "En el ciclo de la Milonga del Sulov">}}
 {{< despl_init "Agenda 2024 (desplegar)">}}
-{{< presentacion "El Hormiguero" "18 de abril de 2024" "hormiguero_abril_2024.jpg">}}
+{{< presentacion "La Cretina" "21 de mayo de 2024" "" "En el ciclo de la Milonga del Sulov">}}
+{{< presentacionx "El Hormiguero" "18 de abril de 2024" "hormiguero_abril_2024.jpg">}}
 {{< presentacionx "Mirador Panorámico, Intendencia de Montevideo" "2 de marzo de 2024" "mirador_2024.jpg">}}
 {{< despl_fin>}}
 {{< despl_init "Agenda 2023 (desplegar)">}}
