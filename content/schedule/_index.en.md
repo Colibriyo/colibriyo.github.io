@@ -5,9 +5,10 @@ draft   : false
 description: "Gigs & Events"
 ---
 {{< titulo "Next presentation">}}
-{{< presentacion "La Cretina" "21 de mayo de 2024" "" "En el ciclo de la Milonga del Sulov">}}
+{{< presentacion "La Cretina" "21 de mayo de 2024" "cretina_mayo_2024.jpg" "En el ciclo de la Milonga del Sulov">}}
 {{< despl_init "2024 schedule (click to dropdown)">}}
-{{< presentacion "La Cretina" "21 de mayo de 2024" "" "En el ciclo de la Milonga del Sulov">}}
+{{< presentacion "Cantina del Urreta" "5 de junio de 2024">}}
+{{< presentacion "La Cretina" "21 de mayo de 2024" "cretina_mayo_2024.jpg" "En el ciclo de la Milonga del Sulov">}}
 {{< presentacionx "El Hormiguero" "18 de abril de 2024" "hormiguero_abril_2024.jpg">}}
 {{< presentacionx "Mirador Panorámico, Intendencia de Montevideo" "2 de marzo de 2024" "mirador_2024.jpg">}}
 {{< despl_fin>}}
