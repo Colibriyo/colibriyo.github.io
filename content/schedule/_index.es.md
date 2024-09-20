@@ -5,9 +5,10 @@ draft   : false
 description: "Agenda de presentaciones"
 ---
 {{< titulo "Próxima fecha">}}
-{{< presentacion "El Hormiguero" "13 de setiembre de 2024" "hormiguero_setiembre_2024.jpg" "Fecha compartida con Fredy Pérez">}}
+{{< presentacion "Guitarra en obra" "3 de octubre de 2024" "afiche_guitarra_en_obra_octubre_2024.jpg">}}
 {{< despl_init "Agenda 2024 (desplegar)">}}
-{{< presentacion "El Hormiguero" "13 de setiembre de 2024" "hormiguero_setiembre_2024.jpg" "Fecha compartida con Fredy Pérez">}}
+{{< presentacion "Guitarra en obra" "3 de octubre de 2024" "afiche_guitarra_en_obra_octubre_2024.jpg">}}
+{{< presentacionx "El Hormiguero" "13 de setiembre de 2024" "hormiguero_setiembre_2024.jpg" "Fecha compartida con Fredy Pérez">}}
 {{< presentacionx "Cantina del Urreta" "5 de junio de 2024" "ureta_junio_2024.jpg">}}
 {{< presentacionx "La Cretina" "21 de mayo de 2024" "cretina_mayo_2024.jpg" "En el ciclo de la Milonga del Sulov">}}
 {{< presentacionx "El Hormiguero" "18 de abril de 2024" "hormiguero_abril_2024.jpg">}}
