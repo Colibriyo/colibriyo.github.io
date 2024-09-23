@@ -8,3 +8,8 @@ description: "Milonga madre: las guitarras de Zitarrosa en grabaciones de 1977 y
 
 
 {{< milonga_madre_about >}}
+{{< milonga_madre_digitalizacion >}}
+{{< milonga_madre_transcripcion >}}
+{{< milonga_madre_ensayos >}}
+{{< milonga_madre_presentaciones >}}
+{{< milonga_madre_equipo >}}
