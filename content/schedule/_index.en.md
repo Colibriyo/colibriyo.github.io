@@ -5,9 +5,12 @@ draft   : false
 description: "Gigs & Events"
 ---
 {{< titulo "Next presentation">}}
-{{< presentacion "Guitarra en obra" "3 de octubre de 2024" "afiche_guitarra_en_obra_octubre_2024.jpg">}}
+{{< presentacion "Sala Zitarrosa" "4 de diciembre de 2024" "zitarrosa_zitarrosa_diciembre_2024.jpg" "Presentación del proyecto Milonga Madre">}}
 {{< despl_init "2024 schedule (click to dropdown)">}}
-{{< presentacion "Guitarra en obra" "3 de octubre de 2024" "afiche_guitarra_en_obra_octubre_2024.jpg">}}
+{{< presentacion "UFRJ - Rio de Janeiro" "10 de diciembre de 2024" "lamir_2024.jpg">}}
+{{< presentacion "Aula Magna - Sede Salto Udelar" "6 de diciembre de 2024" "zitarrosa_salto_2024.jpg" "Presentación del proyecto Milonga Madre">}}
+{{< presentacion "Sala Zitarrosa" "4 de diciembre de 2024" "zitarrosa_zitarrosa_diciembre_2024.jpg" "Presentación del proyecto Milonga Madre">}}
+{{< presentacionx "Guitarra en obra" "3 de octubre de 2024" "afiche_guitarra_en_obra_octubre_2024.jpg">}}
 {{< presentacionx "El Hormiguero" "13 de setiembre de 2024" "hormiguero_setiembre_2024.jpg" "Fecha compartida con Fredy Pérez">}}
 {{< presentacionx "Cantina del Urreta" "5 de junio de 2024" "ureta_junio_2024.jpg">}}
 {{< presentacionx "La Cretina" "21 de mayo de 2024" "cretina_mayo_2024.jpg" "En el ciclo de la Milonga del Sulov">}}
