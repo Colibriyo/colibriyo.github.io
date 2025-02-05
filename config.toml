@@ -19,7 +19,7 @@ DefaultContentLanguage = "es"
 
 # Site Params
 [params]
-logo = "images/logo.png"
+logo = "/images/logo.png"
 
 # Gestion des langues : FR / EN / NL / DE
 [[Params.listeLangues]]
@@ -41,7 +41,7 @@ title = "Colibriyo cuarteto de guitarras"
 dateFormat = "2 Enero 2006"
 
 home = "Inicio"
-logo = "images/logo.png"
+logo = "/images/logo.png"
 menufixed = false
 
 footerDescription = "El cuarteto Colibriyo interpreta versiones para cuarteto de guitarras de tangos, valses y milongas rioplatenses, con arreglos de Aníbal Arias y Pablo Rey."
@@ -110,7 +110,7 @@ languageCode = "en-us"
 title = "Colibriyo guitar quartet"
 dateFormat = "January 2, 2006"
 home = "Home"
-logo = "images/logo.png"
+logo = "/images/logo.png"
 menufixed = false
 
 footerDescription = "The Colibriyo quartet interprets versions for guitar quartet of tangos, waltzes, and milongas from the Río de la Plata, with arrangements by Aníbal Arias and Pablo Rey."
