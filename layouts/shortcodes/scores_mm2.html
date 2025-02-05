@@ -1,0 +1,20 @@
+{{ "<!-- Start About Section -->" | safeHTML }}
+<section class="about-2 bg-gray" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-5 col-sm-4">
+                    <h2>{{ .Get 0 }} </h2>
+                    <h5>{{ .Get 1 }} </h5>
+                    <h6>{{ .Get 3 }} </h6>
+                    <h6>Transcripción: Pablo Rey </h6>
+                    <h5>&nbsp; </h5>
+            </div>
+            
+            {{ $filename := .Get 2 }}
+            <div class="col-10 col-sm-7">
+                    <p>Partitura <a href="/partituras/milonga_madre/{{ $filename }}.pdf"><img class='doc' src='/images/pdf.png' alt='Partitura' /></a>  </p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- End About section -->" | safeHTML }}
