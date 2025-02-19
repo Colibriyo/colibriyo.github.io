@@ -10,7 +10,7 @@ description: "Milonga madre: las guitarras de Zitarrosa en grabaciones de 1977 y
 {{< milonga_madre_about >}}
 {{< milonga_madre_digitalizacion >}}
 {{< milonga_madre_transcripcion >}}
-{{< scores_mmd "Documento Análisis" "Pablo Rey" analisis>}}
+{{< scores_mmd "Documento Análisis" "Pablo Rey" documento_Milonga_Madre>}}
 {{< scores_mm "Stefanie" "Alfredo Zitarrosa" stefanie>}}
 {{< scores_mm "Gotita de Licor" "Alejandro Martínez" gotita_de_licor "versión de A. Zitarrosa">}}
 {{< scores_mm "Milonga para una Niña" "Alfredo Zitarrosa" milonga_para_una_ninha>}}
